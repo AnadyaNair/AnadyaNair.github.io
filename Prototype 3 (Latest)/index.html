@@ -15,20 +15,97 @@
     <link rel="stylesheet" href="tailwind.css">
 </head>
 
-<body class="bg-body">
-    <div>
-        <h1 class="text-5xl text-white font-semibold font-Inter ml-defleft mt-defh1top">
+<body class="bg-body flex">
+    <div class="fixed items-center mx-auto w-20">
+        <h1 class="text-5xl text-white font-bold font-Inter ml-defleft mt-defh1top">
             Hello, I’m Anadya Nair.
         </h1>
-        <p class="text-base text-greyish font-medium font-Inter ml-defleft mt-defptop">
+
+        <p class="text-base text-lightgrey font-medium font-Inter ml-defleft mt-defptop">
             A student and a developer, (he/him). My nationality is Indian. <br>
-            I am young developer, with an experience of 2 years in coding. <br>
+            I am a young developer, with an experience of 2 years in coding. <br>
             I am currently practicing my hands upon web development, <br>
             UI designing, backend, and automation. As well as I am <br>
             the owner and I manage a GitHub organization called the <br>
             Developer Capsule.
         </p>
+
+        <ul class="mt-defptop ml-defleft flex flex-wrap text-white font-Inter font-medium items-center mx-auto">
+            <li class="bg-secondary h-xl w-px text-sm p-sm rounded-full border border-custompurple text-center">
+                Web Development
+            </li>
+
+            <span class="p-short10"></span>
+
+            <li class="bg-secondary text-sm p-sm rounded-full border border-grassy text-center">
+                Interface Design
+            </li>
+
+            <span class="p-short10"></span>
+
+            <li class="bg-secondary text-sm p-sm rounded-full border border-custompink text-center">
+                Machine Learning
+            </li>
+        </ul>
+
+        <ul class="py-short10 ml-defleft flex flex-wrap text-white font-Inter font-medium items-center mx-auto">
+            <li class="bg-secondary text-sm p-sm rounded-full border border-customyellow text-center">
+                Open Source
+            </li>
+
+            <span class="p-short10"></span>
+
+            <li class="bg-secondary text-sm p-sm rounded-full border border-customviolet text-center">
+                Command Line
+            </li>
+
+            <span class="p-short10"></span>
+
+            <li class="bg-secondary text-sm p-sm rounded-full border border-customred text-center">
+                Creative Coding
+            </li>
+        </ul>
+
+        <div class="mt-defh1top ml-defleft flex flex-wrap text-white font-Inter font-medium items-center mx-auto">
+            <span class="flex items-center pr-lg">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M12 0.296997C5.37 0.296997 0 5.67 0 12.297C0 17.6 3.438 22.097 8.205 23.682C8.805 23.795 9.025 23.424 9.025 23.105C9.025 22.82 9.015 22.065 9.01 21.065C5.672 21.789 4.968 19.455 4.968 19.455C4.422 18.07 3.633 17.7 3.633 17.7C2.546 16.956 3.717 16.971 3.717 16.971C4.922 17.055 5.555 18.207 5.555 18.207C6.625 20.042 8.364 19.512 9.05 19.205C9.158 18.429 9.467 17.9 9.81 17.6C7.145 17.3 4.344 16.268 4.344 11.67C4.344 10.36 4.809 9.29 5.579 8.45C5.444 8.147 5.039 6.927 5.684 5.274C5.684 5.274 6.689 4.952 8.984 6.504C9.944 6.237 10.964 6.105 11.984 6.099C13.004 6.105 14.024 6.237 14.984 6.504C17.264 4.952 18.269 5.274 18.269 5.274C18.914 6.927 18.509 8.147 18.389 8.45C19.154 9.29 19.619 10.36 19.619 11.67C19.619 16.28 16.814 17.295 14.144 17.59C14.564 17.95 14.954 18.686 14.954 19.81C14.954 21.416 14.939 22.706 14.939 23.096C14.939 23.411 15.149 23.786 15.764 23.666C20.565 22.092 24 17.592 24 12.297C24 5.67 18.627 0.296997 12 0.296997"
+                        fill="white" />
+                </svg>
+
+                <a class="pl-short10 font-regular text-sm" target="blank "
+                    href="https://github.com/AnadyaNair">GitHub</a>
+            </span>
+
+            <span class="flex items-center">
+                <svg width="20" height="20" viewBox="0 0 24 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M24 2.55699C23.1014 2.95526 22.1481 3.2165 21.172 3.33199C22.2006 2.71717 22.9702 1.74886 23.337 0.60799C22.3704 1.18158 21.3128 1.58573 20.21 1.80299C19.7494 1.31138 19.1928 0.919679 18.5745 0.652184C17.9563 0.384688 17.2896 0.247111 16.616 0.24799C13.437 0.24799 11.101 3.21399 11.819 6.29299C9.86138 6.195 7.94625 5.68639 6.19796 4.80018C4.44967 3.91398 2.9073 2.66999 1.671 1.14899C1.04148 2.23303 0.848566 3.51617 1.13149 4.7374C1.41441 5.95862 2.15192 7.02621 3.194 7.72299C2.41251 7.69832 1.64826 7.48711 0.965 7.10699C0.911 9.38799 2.546 11.522 4.914 11.997C4.18873 12.194 3.42806 12.2227 2.69 12.081C3.00451 13.0594 3.61703 13.9149 4.44184 14.528C5.26665 15.141 6.26249 15.4809 7.29 15.5C5.2262 17.1189 2.6043 17.8526 0 17.54C2.25151 18.9866 4.87183 19.7545 7.548 19.752C16.69 19.752 21.855 12.031 21.543 5.10599C22.5067 4.40881 23.3387 3.54569 24 2.55699V2.55699Z"
+                        fill="white" />
+                </svg>
+
+                <a class="pl-short10 font-regular text-sm" target="blank "
+                    href="https://twitter.com/AnadyaNair">Twitter</a>
+            </span>
+        </div>
+
+        <div class="mt-defptop ml-defleft flex flex-wrap text-white font-Inter font-medium items-center mx-auto">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                    d="M19 11H5C3.89543 11 3 11.8954 3 13V20C3 21.1046 3.89543 22 5 22H19C20.1046 22 21 21.1046 21 20V13C21 11.8954 20.1046 11 19 11Z"
+                    fill="#27AE60" stroke="#27AE60" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                <path
+                    d="M7 11V7C7 5.67392 7.52678 4.40215 8.46447 3.46447C9.40215 2.52678 10.6739 2 12 2C13.3261 2 14.5979 2.52678 15.5355 3.46447C16.4732 4.40215 17 5.67392 17 7V11"
+                    stroke="#27AE60" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+
+
+            <p class="pl-short10 text-sm text-grassy font-medium font-Inter">This website is free of cookies and is
+                secure.</p>
+        </div>
     </div>
+
 </body>
 
 </html>
