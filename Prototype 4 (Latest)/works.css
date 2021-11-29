@@ -1,0 +1,53 @@
+.works{
+    margin-top: 100px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.works h3{
+    font-weight: 600;
+    margin-left: 295px;
+}
+
+.showcase{
+    width: 500px;
+    border: 2px solid #1a1a1a;
+    border-radius: 10px;
+    align-items: center;
+}
+
+.showcase h4{
+    font-weight: 600;
+    padding-left: 50px;
+}
+
+.showcase p{
+    margin-top: -10px;
+    padding-left: 50px;
+}
+
+.showcase a{
+    text-decoration: none;
+}
+.showcase svg{
+    padding-left: 10px;
+}
+
+.linkage{
+    height: 50px;
+}
+.linkage a{
+    padding-left: 50px;
+}
+
+.works span{
+    width: 20px;
+}
+
+.works ul{
+    display: flex;
+    margin-left: 250px;
+    /* justify-content: center; */
+    align-items: center;
+}

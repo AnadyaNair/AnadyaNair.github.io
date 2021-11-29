@@ -1,0 +1,63 @@
+*{
+    background-color: #121212;
+    font-family: 'Inter', sans-serif;
+    color: #ffffff;
+}
+
+.header{
+    text-align: center;
+    margin-top: 50px;
+}
+.header img{
+    width: 100px;
+}
+
+.header h2{
+    font-weight: 600;
+}
+
+.header p{
+    color: #828282;
+    font-weight: 600;
+}
+
+.socials{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+}
+
+.twitter{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.twitter a{
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 600;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.twitter svg{
+    width: 24px;
+}
+
+.github{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.github a{
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 600;
+    padding-left: 20px;
+    padding-right: 5px;
+}
+.github svg{
+    width: 24px;
+}

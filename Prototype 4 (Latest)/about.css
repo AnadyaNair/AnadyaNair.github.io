@@ -1,0 +1,41 @@
+.about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+.regarding h3{
+    font-weight: 600;
+}
+
+.regarding{
+    margin-right: 200px;
+}
+
+.regarding a{
+    text-decoration: none;
+}
+
+.abilities ul{
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    margin-left: -40px;
+}
+
+.abilities h3{
+    font-weight: 600; 
+}
+
+.abilities li{
+    background-color: #1a1a1a;
+    border-radius: 50px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.abilities span{
+    width: 10px;
+}
